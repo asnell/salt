@@ -1,4 +1,4 @@
-import:
+include:
   - repos.centos.base
   - repos.centos.extras
   - repos.centos.updates
