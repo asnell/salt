@@ -48,7 +48,6 @@ rpmrepo-directory-mongo:
     - group: root
     - dir_mode: 755
     - makedirs: True
-    rpmrepo-directory-salt:
 
 rpmrepo-directory-node5:
   file.directory:
@@ -57,7 +56,6 @@ rpmrepo-directory-node5:
     - group: root
     - dir_mode: 755
     - makedirs: True
-    rpmrepo-directory-salt:
 
 rpmrepo-directory-node6:
   file.directory:
@@ -66,7 +64,6 @@ rpmrepo-directory-node6:
     - group: root
     - dir_mode: 755
     - makedirs: True
-    rpmrepo-directory-salt:
 
 rpmrepo-directory-node7:
   file.directory:
@@ -75,7 +72,6 @@ rpmrepo-directory-node7:
     - group: root
     - dir_mode: 755
     - makedirs: True
-    rpmrepo-directory-salt:
 
 rpmrepo-directory-node8:
   file.directory:
@@ -84,7 +80,6 @@ rpmrepo-directory-node8:
     - group: root
     - dir_mode: 755
     - makedirs: True
-    rpmrepo-directory-salt:
 
 rpmrepo-directory-ius:
   file.directory:
@@ -93,7 +88,6 @@ rpmrepo-directory-ius:
     - group: root
     - dir_mode: 755
     - makedirs: True
-    rpmrepo-directory-salt:
 
 rpmrepo-directory-sensu6:
   file.directory:
@@ -102,7 +96,6 @@ rpmrepo-directory-sensu6:
     - group: root
     - dir_mode: 755
     - makedirs: True
-    rpmrepo-directory-salt:
 
 rpmrepo-directory-sensu7:
   file.directory:
@@ -111,9 +104,6 @@ rpmrepo-directory-sensu7:
     - group: root
     - dir_mode: 755
     - makedirs: True
-
-
-    
 
 rpmrepo-httpd:
   service.running:
