@@ -1,13 +1,13 @@
-include:
-  - repos.centos.base
-  - repos.centos.extras
-  - repos.centos.updates
-  - repos.epel
-  - repos.ius
-  - repos.mongo
-  - repos.salt
-  - repos.nodejs
-  - repos.sensu
+#include:
+#  - repos.centos.base
+#  - repos.centos.extras
+#  - repos.centos.updates
+#  - repos.epel
+#  - repos.ius
+#  - repos.mongo
+#  - repos.salt
+#  - repos.nodejs
+#  - repos.sensu
 
 rpmrepo-packages:
   pkg.installed:
